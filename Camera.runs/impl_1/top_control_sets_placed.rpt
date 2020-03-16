@@ -1,0 +1,82 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat May 25 20:58:09 2019
+| Host         : DESKTOP-YujiangGuan running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    61 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              31 |           18 |
+| No           | No                    | Yes                    |              19 |            8 |
+| No           | Yes                   | No                     |              34 |           19 |
+| Yes          | No                    | No                     |              57 |           34 |
+| Yes          | No                    | Yes                    |              24 |            6 |
+| Yes          | Yes                   | No                     |              54 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+--------------------------------+------------------------+------------------+----------------+
+|          Clock Signal         |          Enable Signal         |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++-------------------------------+--------------------------------+------------------------+------------------+----------------+
+|  clk/inst/clk_out2            |                                | vga/vga_hsync0         |                1 |              1 |
+|  clk/inst/clk_out2            |                                | vga/vga_vsync0         |                1 |              1 |
+|  reg_index_reg_rep[8]_i_3_n_0 | config/u1/cyc_count[5]_i_1_n_0 | power/cyc_count_reg[0] |                2 |              6 |
+|  reg_index_reg_rep[8]_i_3_n_0 |                                | power/cyc_count_reg[0] |                4 |              7 |
+|  clk/inst/clk_out2            | vga/vCounter_1                 |                        |                4 |             10 |
+|  clk/inst/clk_out2            |                                | vga/blank              |               11 |             12 |
+|  clk/inst/clk_out2            |                                | power/cyc_count_reg[0] |                4 |             12 |
+|  clk/inst/clk_out2            |                                |                        |                7 |             15 |
+|  clk/inst/clk_out2            | power/cnt2[0]_i_1_n_0          | power/pwdn_OBUF        |                4 |             16 |
+|  clk/inst/clk_out1            |                                |                        |               11 |             16 |
+|  reg_index_reg_rep[8]_i_3_n_0 | config/reg_index_0             | power/cyc_count_reg[0] |                4 |             18 |
+|  pclk_IBUF_BUFG               | capture/p_1_in                 | vsync_IBUF             |                5 |             19 |
+|  clk/inst/clk_out2            | vga/sel                        | vga/clear              |                7 |             19 |
+|  pclk_IBUF_BUFG               |                                | vsync_IBUF             |                6 |             20 |
+|  reg_index_reg_rep[8]_i_3_n_0 | config/i2c_data                |                        |               17 |             22 |
+|  pclk_IBUF_BUFG               | capture/p_0_in                 |                        |               13 |             25 |
++-------------------------------+--------------------------------+------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 6      |                     1 |
+| 7      |                     1 |
+| 10     |                     1 |
+| 12     |                     2 |
+| 15     |                     1 |
+| 16+    |                     8 |
++--------+-----------------------+
+
+

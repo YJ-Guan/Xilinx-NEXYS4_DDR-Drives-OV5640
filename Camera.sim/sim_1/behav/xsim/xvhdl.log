@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/debounce.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/ov7670_capture.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_capture
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_vga/ov7670_vga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_vga
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top

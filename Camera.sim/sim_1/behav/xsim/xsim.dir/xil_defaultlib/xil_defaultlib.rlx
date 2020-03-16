@@ -1,0 +1,15 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/OneDrive/EE332_Lab/Camera/Camera.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1558433436,verilog,,D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/i2c_com.v,,blk_mem_gen_0,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1558437869,verilog,,D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,clk_wiz_0,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1558437869,verilog,,D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/new/top.vhd,1558444219,vhdl,,,,top,,,,,,,,
+D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/debounce.vhd,1422565646,vhdl,,,,debounce,,,,,,,,
+D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/ov7670_capture.vhd,1558442762,vhdl,,,,ov7670_capture,,,,,,,,
+D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_vga/ov7670_vga.vhd,1558432935,vhdl,,,,ov7670_vga,,,,,,,,
+D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/i2c_com.v,1449127166,verilog,,D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/power_on_delay.v,,i2c_com,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/power_on_delay.v,1558437839,verilog,,D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/reg_config.v,,power_on_delay,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/reg_config.v,1558445521,verilog,,,,reg_config,,,../../../../Camera.srcs/sources_1/ip/clk_wiz_0,,,,,

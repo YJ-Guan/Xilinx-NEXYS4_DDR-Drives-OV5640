@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/i2c_com.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_com
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/power_on_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module power_on_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/reg_config.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_config
+INFO: [VRFC 10-2458] undeclared symbol ack, assumed default net type wire [D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/reg_config.v:25]
+INFO: [VRFC 10-2458] undeclared symbol tr_end, assumed default net type wire [D:/OneDrive/EE332_Lab/nexys video ov5640 vga display/nexys video A7/design/ov5640/reg_config.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive/EE332_Lab/Camera/Camera.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/debounce.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_capture/ov7670_capture.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_capture
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/hdl-master/hdl-master/zynq/src/ov7670_vga/ov7670_vga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ov7670_vga
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/OneDrive/EE332_Lab/Camera/Camera.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top

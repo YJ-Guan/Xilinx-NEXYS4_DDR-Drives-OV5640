@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdl-master/hdl-master/zynq/src/ov7670_capture/debounce.vhd" \
+"../../../../../hdl-master/hdl-master/zynq/src/ov7670_capture/ov7670_capture.vhd" \
+"../../../../../hdl-master/hdl-master/zynq/src/ov7670_vga/ov7670_vga.vhd" \
+"../../../../Camera.srcs/sources_1/new/top.vhd" \
+
+# Do not sort compile order
+nosort
